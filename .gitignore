@@ -1,0 +1,17 @@
+.venv/
+.venv-old-delete-later/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+#Environment / secrets
+.env
+.env.local
+
+#OS
+.DS_Store
+
+
+#Editor
+.vscode/
+.idea/
