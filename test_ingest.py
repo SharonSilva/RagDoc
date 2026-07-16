@@ -1,11 +1,11 @@
 from app.ingest import ingest_document
 
 sample= """
-Fastapi is a modern Python web framework for building APIs.
+FastAPI is a modern Python web framework for building APIs.
 It is based on standard Python type hints and is very fast.
-FastAPI automatically generates interactive API documentation
-Unicorn is the server that runs FastAPI aplications
-Pydantic handles data validation in FastAPI using type annotations
+FastAPI automatically generates interactive API documentation.
+Uvicorn is the server that runs FastAPI applications.
+Pydantic handles data validation in FastAPI using type annotations.
 """
 
 count = ingest_document(
